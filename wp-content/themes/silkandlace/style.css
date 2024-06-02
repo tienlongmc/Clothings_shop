@@ -1,0 +1,242 @@
+/*
+Theme Name: silkandlace
+Description: This is a child theme for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.0
+*/
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+/* all */
+/* product box */
+.box-title {
+  margin-bottom: 15px;
+  font-size: 36px;
+  line-height: 48px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.box-image {
+  border-radius: 1rem;
+}
+.tabbed-content li {
+  margin: 9px 0 18px;
+  border-bottom: 1px solid #e3e3e3;
+}
+.tabbed-content .nav > li > a {
+  display: flex;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  padding-bottom: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  -webkit-box-align: self-end;
+  -ms-flex-align: self-end;
+  position: relative;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+.box-image .woocommerce-Price-amount {
+  font-size: 20px;
+  line-height: 24px;
+}
+/* end product box */
+/* new product */
+.new-product-section,
+.best-product-section,
+.bra-section,
+.underwear-section,
+.underwear-set-section,
+.category-section,
+.blog-section {
+  padding-top: 40px !important;
+}
+/* end new product */
+/* information */
+.information-section {
+  padding: 15px;
+}
+.information-row {
+  background: #a50e43;
+  border-radius: 60px;
+}
+.information-col {
+  padding: 60px;
+}
+.information-col-right {
+  padding: 30px;
+}
+.information-col-right img {
+  border-radius: 60px;
+}
+.custom-btn {
+  line-height: 40px;
+  font-size: 16px;
+  padding: 0 19px;
+  color: #000 !important;
+}
+/* end information */
+/* blog section */
+.blog-section .box-text h5 {
+  height: 50px;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 10px 0 13px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+}
+.blog-section .box-blog-post .is-divider {
+  display: none;
+}
+.blog-section .box .button {
+  font-size: 14px;
+  line-height: 17px;
+  padding: 16px 9px 0;
+  letter-spacing: 0.15em;
+  font-weight: 400;
+  margin: auto;
+  border-top: 1px solid #000 !important;
+}
+.blog-section .box,
+.blog-section .col-inner {
+  border-radius: 1rem;
+}
+.blog-section .box-image {
+  border-radius: unset;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+/* end blog section */
+/* footer */
+.footer-secondary {
+  display: none;
+}
+.footer-primary {
+  float: none !important;
+}
+/* end footer */
+/* single product */
+.product-main,
+.product-footer .woocommerce-tabs,
+.shop-page-title {
+  max-width: 1080px !important;
+  margin: auto;
+}
+.breadcrumbs a {
+  position: relative;
+  font-size: 13px;
+  line-height: 20px;
+  padding: 13px 0;
+  color: #000;
+}
+.single_add_to_cart_button {
+  background: #a50e43 !important;
+  border-radius: 23px;
+  color: #fff;
+}
+.product-main .product-title {
+  margin-bottom: 10px;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 28px;
+  font-family: "Inter", sans-serif;
+}
+.woocommerce-Reviews-title {
+  font-family: "Inter", sans-serif;
+}
+.pd-static-group {
+  border-bottom: 1px solid #e3e3e3;
+  border-top: 1px solid #e3e3e3;
+  padding: 18px 0;
+  margin: 15px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 16px;
+}
+.pd-static-group .icon-truck {
+  background-position: -9px -115px;
+}
+.pd-static-group .icon-box {
+  background-position: -81px -115px;
+}
+.pd-static-group .icon-support {
+  background-position: -150px -126px;
+}
+.pd-static-group .icons {
+  width: 50px;
+  height: 50px;
+  margin: auto;
+  display: block;
+}
+.icons {
+  background: url(http://localhost:8888/silkandlace/wp-content/uploads/2023/02/sprite.png)
+    no-repeat;
+  background-size: 300px 300px;
+}
+.pd-static-group .text {
+  margin: 10px 0 0;
+  font-weight: 700;
+}
+.pd-summary-group {
+  font-size: 12px;
+  line-height: 19px;
+}
+.pd-summary-group .pd-summary-title {
+  margin-bottom: 12px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.pd-summary-group .title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0;
+}
+.pd-summary-list .item {
+  position: relative;
+  padding-left: 18px;
+}
+.pd-summary-list .item::before {
+  content: "\f111";
+  font-size: 5px;
+  font-weight: 900;
+  position: absolute;
+  top: 0;
+  left: 5px;
+}
+.woocommerce-product-gallery__image img {
+  border-radius: 1rem;
+}
+/* end single product */
+/* blog archive */
+.blog-archive .box,
+.blog-archive .col-inner {
+  border-radius: 1rem;
+}
+.blog-archive .box-image {
+  border-radius: unset;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+.blog-archive .box-text h5 {
+  height: 40px;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 10px 0 13px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+}
+/* end blog archive */
